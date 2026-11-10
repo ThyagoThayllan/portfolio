@@ -1,0 +1,26 @@
+.icon {
+  flex-shrink: 0;
+  width: 1.15em;
+  height: 1.15em;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 12px;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: rgba(59, 130, 246, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.featured {
+  color: var(--cyan);
+  background: var(--accent-soft);
+  border-color: rgba(59, 130, 246, 0.45);
+  font-weight: 700;
+}
